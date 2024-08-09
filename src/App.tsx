@@ -1,7 +1,7 @@
 import React from "react"
 // import WebSocketComponent from "./components/WebSocket"
-import WebSocketComponent2 from "./components/WebSocket2"
-// import WebSocketComponent3 from "./components/WebSocket3"
+// import WebSocketComponent2 from "./components/WebSocket2"
+import WebSocketComponent3 from "./components/WebSocket3"
 
 const App: React.FC = () => {
   return (
@@ -16,8 +16,8 @@ const App: React.FC = () => {
       }}
     >
       {/* <WebSocketComponent /> */}
-      <WebSocketComponent2 />
-      {/* <WebSocketComponent3 /> */}
+      {/* <WebSocketComponent2 /> */}
+      <WebSocketComponent3 />
     </div>
   )
 }
